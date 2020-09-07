@@ -1,0 +1,12 @@
+platform: nangate45   # ['nangate45']
+
+design_name: aes_cipher_top
+
+verilog_files:
+  - src/aes_top.v
+sdc_file: constraints.sdc
+
+die_area: "0 0 620.15 620.6"
+core_area: "10.07 11.2 610.27 610.8"
+
+clock_period: 2.000
